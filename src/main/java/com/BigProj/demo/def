@@ -1,0 +1,9 @@
+@Component / @Service  - clasele devin gestionate de Spring, le converteste in "bean"-uri
+@Autowired - Spring injecteaza dependintele de care avem nevoie (Injecteaza bean-uri)
+@Configuration - Clasele normale ce contin "configurari" de spring (Ex: instantiem noi clase si ii zicem la spring sa le ia la cunostinta si sa le trateze ca bean-uri)
+@Bean - Zicem care instante sa fie folosite ca si bean-uri
+@Value -i njectare de valori din fisiere .properties
+@PropertySource - ii zcem sa citeqasca si valorile din alte fisiere .properties ca mai apoi sa le folosim
+
+Clase normale ce implementeaza CommandLineRunner  (@Component) ce functioneaza ca un fel de main
+
